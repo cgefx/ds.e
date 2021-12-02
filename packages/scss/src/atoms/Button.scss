@@ -1,8 +1,8 @@
-@import "foundation/all";
+@import 'foundation/all';
 
 .dse-button-container {
-  display: flex;
-  background: $btn-primary-bg;
-  color: $btn-primary-color;
-  padding: map-get($spacing, "xxxs");
+	display: flex;
+	background: $btn-primary-bg;
+	color: $btn-primary-color;
+	padding: map-get($spacing, 'xxxs');
 }
