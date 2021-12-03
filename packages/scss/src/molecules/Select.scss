@@ -27,6 +27,8 @@
 		background: $form-bg-color;
 		z-index: 99;
 
+		box-shadow: map-get($shadows, 'base');
+
 		position: absolute;
 
 		width: 100%;
