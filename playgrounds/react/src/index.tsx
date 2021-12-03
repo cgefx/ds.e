@@ -26,7 +26,7 @@ const options = [
 
 const App = () => {
 	return (
-		<div>
+		<div style={{ padding: '40px' }}>
 			<Color hexCode='#000' />
 			<Select options={options} />
 			<Margin>
